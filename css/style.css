@@ -15,18 +15,47 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 90px;
+    padding: 0 15px;
     position: fixed;
-    z-index: 500;
+    z-index: 499;
     top: 0px;
     right: 0px;
     left: 0px;
-    /* DEBUG */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.spotify-1{
+    height: 45%;
+}
+
+.upgrade{
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 40px;
+    font-size: 12px;
+}
+
+.container{
+    display: flex;
+    /* debug */
+
 }
 
 
+.main-container{
+    display: flex;
+    justify-content: flex-start;
+}
 
+.point-marker{
+    width: 280px;
+    height: calc(100vh);
+    margin-top: 130px;
+    /* DEBUG */
+    background-color: red;
+}
 
 /* regole main */
 .main{
@@ -40,19 +69,20 @@ header{
     background-color: crimson;
 }
 
-.container{
-    display: flex;
-    /* debug */
-
-}
-
 
 
 
 /* footer */
 footer{
-    height: 90px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 500;
     /* debug */
     background-color: cornflowerblue;
+    height: 120px;
+    width: 100%;
+
 
 }
