@@ -10,6 +10,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
 /* Header Rules */
 header{
     display: flex;
@@ -205,6 +213,30 @@ header{
     width: 90%;
     margin: 0 auto;
 }
+
+.tool-bar > ul{
+    margin-bottom: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tool-bar li a{
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+.tool-bar hr{
+    border: 1px solid#adff2f;
+    width: 28%;
+    margin: auto;
+}
+
+
 
 
 
