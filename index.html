@@ -24,29 +24,21 @@
 
 </head>
 <body>
-
-    <!-- header -->
     <header>
-        
-        <div>
-            <div id="logo-desktop">
-                <img src="img/logo.svg" alt="logo Spotify" id="logo">  
-            </div>
-            
-            <div id="logo-mobile">
-                <img src="img/logo-small.svg" alt="logo Spotify">
-            </div>
-        </div>
+        <img src="img/logo.svg" alt="Logo" id="logo-1">
 
-            <a href="#" class="upgrade">
-                EFFETTUA  L&apos;UPGRADE
-            </a>
+        <a href="#" class="upgrade">
+            EFFETTUA L'UPGRADE
+        </a>
     </header>
 
     <div class="main-container">
         <nav class="point-marker">
             <div class="nav-bar">
                 <ul class="pages">
+                    <li>
+                        <img src="img/logo-small.svg" alt="Small Logo" id="logo-2">
+                    </li>
                     <li id="selected">
                         <a href="#">
                             <img src="img/home.svg" alt="Home">
@@ -58,7 +50,7 @@
 
                     <li>
                         <a href="#">
-                            <img src="img/search.svg" alt="Cerca">
+                            <img src="img/search.svg" alt="Search">
                             <span>
                                 Cerca
                             </span>
@@ -67,15 +59,15 @@
 
                     <li>
                         <a href="#">
-                            <img src="img/libreria.svg" alt="La tua libreria">
+                            <img src="img/libreria.svg" alt="">
                             <span>
                                 La Tua Libreria
-                            </span> 
+                            </span>
                         </a>
                     </li>
                 </ul>
 
-                <div class="playlist">
+                <div class="create">
                     <h6>
                         PLAYLIST
                     </h6>
@@ -83,16 +75,16 @@
                         <i class="fa-solid fa-square-plus"></i>
                         Crea Playlist
                     </a>
-                </div>
+                </div>             
             </div>
-
+            
             <div class="middle">
-                <div class="txt-nav-bar">         
+                <div class="playlist">         
                     <ul>
                         <li>
                             <a href="#">
                                 Nome Playlist
-                            </a>
+                            </a> 
                         </li>
                         <li>
                             <a href="#">
@@ -126,8 +118,8 @@
                         </li>
                     </ul>
                 </div>
-            </div>   
-                
+            </div>
+                   
             <div class="installa-app">
                 <a href="#" class="download">
                     <img src="img/download.svg" alt="">
@@ -144,11 +136,10 @@
                 </a>
             </div>
         </nav>
-
-        <!--main  -->
+        
         <main>
             <div class="container">
-                <nav class="tool-bar">
+                <nav class="top-menu">
                     <ul>
                         <li>
                             <a href="#">
@@ -188,13 +179,17 @@
                         </li>
                     </ul>
                 </nav>
-
+    
                 <h3>
                     Recently played
                 </h3>
-                <section class="recently">
+                <section class="album">
                     <div class="card">
+                        <div class="play-hover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <img src="img/metal_lifting.jpg" alt="Heavy Metal">
+                        
                         <h6>
                             Heavy Metal
                         </h6>
@@ -204,8 +199,11 @@
     
                         </div>
                     </div>
-
+    
                     <div class="card">
+                        <div class="play-hover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <img src="img/stranger.jpeg" alt="Stranger Things">
                         <h6>
                             Stranger Things, Vol. 1 (a Netflix Original Series Soundtrck)
@@ -216,6 +214,9 @@
                     </div>
     
                     <div class="card">
+                        <div class="play-hover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <img src="img/aquietplace.jpeg" alt="A quiet place">
                         <h6>
                             A quiet place
@@ -226,6 +227,9 @@
                     </div>
     
                     <div class="card">
+                        <div class="play-hover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <img src="img/split.jpeg" alt="Split">
                         <h6>
                             Split
@@ -236,6 +240,9 @@
                     </div>
     
                     <div class="card">
+                        <div class="play-hover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <img src="img/cure.jpeg" alt="A cure for wellness">
                         <h6>
                             A cure for wellness
@@ -246,6 +253,9 @@
                     </div>
     
                     <div class="card">
+                        <div class="play-hover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <img src="img/sinister.jpeg" alt="Sinister">
                         <h6>
                             Sinister
@@ -255,27 +265,77 @@
                         </div>
                     </div>
                 </section>
-                
+    
                 <h3>
-                    Popular
+                    Creato per Jonh Doe
                 </h3>
                 <div class="title">
-                    aaa
+                    Più ascolti, più accurati saranno i suggerimenti.
                 </div>
     
-               
-
-                
-
-
-
-        
+                <section class="for-you"> 
+                    <div class="card">
+                        <div class="play-hover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                        <img src="img/radar.jpeg" alt="Release Radar">
+                        <h6>
+                            Release Radar
+                        </h6>
+                    </div>
+                    <div class="card">
+                        <div class="play-hover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                        <img src="img/mixdaily.jpeg" alt="Daily Mix 1">
+                        <h6>
+                            Daily Mix 1
+                        </h6>
+                    </div>
+                </section>
+    
+                <h3>
+                    Artisti più popolari
+                </h3>
+                <div class="title">
+                    Più ascolti, più accurati saranno i suggerimenti.
+                </div>
+    
+                <section class="popular">
+                    <div class="circle card">
+                        <div class="play-hover circle">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                        <img src="img/youg.jpeg" alt="Young">
+                        <h6>
+                            Lana Del Ray
+                        </h6>
+                    </div>
+    
+                    <div class="circle card">
+                        <div class="play-hover circle">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                        <img src="img/einaudi.jpeg" alt="Ludovico Einaudi">
+                        <h6>
+                            Ludovico Einaudi
+                        </h6>
+                    </div>
+                </section>
+            </div>
+            
         </main>
+    </div>
+
+    
 
 
-
-    <!-- footer -->
+     <!-- footer --> 
     <footer>
+       
+
+
+        </div>
 
         
     </footer>
