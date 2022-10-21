@@ -508,3 +508,97 @@ footer{
 .foot.right .time-bar{
     width: 20%;
 }
+
+/*  Medium Version */
+@media screen and (max-width: 808px){
+    .foot.left .icon{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    .foot.center .bar{
+        width: 150px;
+    }
+
+    .foot.right .bar{
+        width: 80px;
+    }
+
+    .foot.right .icon{
+        font-size: 12px;
+    }
+
+    .foot.center .icon{
+        font-size: 15px;
+    }
+
+    #play{
+        font-size: 25px;
+    }
+
+}
+
+
+/* Small Version */
+@media screen and (max-width: 630px){
+    header{
+        margin-left: 60px;
+        justify-content: flex-end;
+    }
+    
+    .left-menu{
+        width: 60px;
+        padding: 0px;
+        align-items: center;
+    }
+    
+    #selected{
+        border-left: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    main{
+        margin: 0 0 90px 60px;
+    }
+
+    .playlist, .create, .pages span, .bottom span, hr{
+        display: none;
+    }
+
+    .bottom img{
+        display: block;
+        margin: 8px 0;
+    }
+
+    .download img{
+        width: 23px;
+        height: 24px;
+        margin-bottom: 15px;
+    }
+
+    #logo-s{
+        display: inline-block;
+    }
+
+    #logo-l{
+        display: none;
+    }
+
+    .foot.left .cover-preview{
+        display: none;
+    }
+}
+
+/* XS Version */
+@media  screen and (max-width: 420px) {
+    
+    .foot.right .icon{
+        flex-direction: column;
+    }
+
+    .foot.left .icon i{
+        display: block;
+        margin: 5px 0;
+    }
+}
