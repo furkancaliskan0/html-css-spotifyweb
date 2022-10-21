@@ -241,6 +241,7 @@ header{
     margin: auto;
 }
 
+
 main h3{
     display: flex;
     justify-content: center;
@@ -301,6 +302,7 @@ section{
     font-weight: bold;
     font-size: 16px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .circle.card img{
@@ -324,19 +326,131 @@ footer{
     bottom: 0px;
     right: 0px;
     left: 0px;
-    z-index: 500;
-    /* debug */
-    background-color: rgb(59, 57, 57);
-    height: 120px;
-    width: 100%;
+    z-index: 501;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222121;
 }
+
 .foot{
-    width: 22%;
+    width: 25%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
+.foot.left img{
+    width: 20px;
+    height: 50%;
+    margin-right: 10px;
+}
+
+.foot.left .icon{
+    color: gray;
+    margin-left: 40px;
+}
+
+.foot.left .icon i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.foot.left .music{
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.foot.left .artist a{
+    color: gray;
+    font-weight: bold;
+    font-size: 10px;
+}
 
 
+.foot.center{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
 
+.foot.center .icon{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 20%;
+}
+
+#play{
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.foot.center .bar-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: lightgray;
+    font-size: 10px;
+    font-weight: bold;
+    height: 20%;
+}
+
+.bar{
+    background-color: #5a5a5a;
+    height: 4px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.time-bar{
+    background-color: #b8b4b4;
+    height: 4px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slider{
+    background-color: white;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    display: none;
+}
+
+.foot.center .bar{
+    width: 450px;
+}
+
+
+.foot.center .time-bar{
+    width: 20%;
+}
+
+.foot.right{
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.foot.right .icon{
+    color: #b8b4b4;
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.foot.right .bar{
+    width: 130px;
+}
+
+.foot.right .time-bar{
+    width: 20%;
+}
