@@ -63,6 +63,12 @@ header{
     font-size: 12px;
 }
 
+.upgrade:hover{
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: -10px;
+}
+
 .point-marker{
     width: 230px;
     height: calc(100vh - 90px);
@@ -89,6 +95,15 @@ header{
 
 .pages > li{
     margin: 8px 0;
+}
+
+.pages > li:hover a{
+    color: white;
+
+}
+
+.pages > li:hover  img{
+    filter: invert(0);
 }
 
 .pages > li > a{
@@ -120,6 +135,10 @@ header{
 
 .playlist li{
     margin-top: 15px;
+}
+
+.playlist li:hover a{
+    color: white;
 }
 
 .playlist  li a{
@@ -212,7 +231,6 @@ header{
 .container{
     width: 100%;
     margin: 100px  auto;
-    /* DEBUG */
     background-color: rgb(27, 25, 25);
 }
 
@@ -234,6 +252,9 @@ header{
     padding-bottom: 3px;
 }
 
+.top-menu li a:hover{
+    color: white;
+}
 
 .top-menu hr{
     border: 1px solid#adff2f;
@@ -293,9 +314,30 @@ section{
     position: relative;
 }
 
+.play-hover{
+    width: 100%;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.827);
+    position: absolute;
+    top:0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-hover i{
+    font-size: 60px;
+    color: white;
+}
+
 .card img{
     width: 100%;
 }
+
+.card:hover .play-hover{
+    display: flex;
+}
+
 
 .card h6{
     color: white;
@@ -327,6 +369,8 @@ footer{
     right: 0px;
     left: 0px;
     z-index: 501;
+    height: 90px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -341,7 +385,6 @@ footer{
 }
 
 .foot.left img{
-    width: 20px;
     height: 50%;
     margin-right: 10px;
 }
@@ -349,6 +392,10 @@ footer{
 .foot.left .icon{
     color: gray;
     margin-left: 40px;
+}
+
+.foot.left .icon i:hover{
+    color: white;
 }
 
 .foot.left .icon i{
@@ -367,7 +414,10 @@ footer{
     font-weight: bold;
     font-size: 10px;
 }
-
+.foot.left .artist a:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 .foot.center{
     width: 50%;
@@ -437,6 +487,10 @@ footer{
 .foot.right{
     justify-content: flex-end;
     gap: 20px;
+}
+
+.foot.right .icon i:hover{
+    color: white;
 }
 
 .foot.right .icon{
