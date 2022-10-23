@@ -24,370 +24,209 @@
 
 </head>
 <body>
-    <header>
-        <img src="img/logo.svg" alt="Logo" id="logo-1">
+    <!-- parte sopra macro  -->
+    <div class="wrapper-up">
+        <nav class="nav-aside">
+            <div class="container nav">
+                <div class="spotify">
+                    <img class="logo large" src="./img/logo.svg" alt="Spotify Logo">
+                </div>
 
-        <a href="#" class="upgrade">
-            EFFETTUA L'UPGRADE
-        </a>
-    </header>
-
-    <div class="main-container">
-        <nav class="point-marker">
-            <div class="nav-bar">
-                <ul class="pages">
-                    <li>
-                        <img src="img/logo-small.svg" alt="Small Logo" id="logo-2">
-                    </li>
-                    <li id="selected">
-                        <a href="#">
-                            <img src="img/home.svg" alt="Home">
-                            <span>
-                                Home
-                            </span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="img/search.svg" alt="Search">
-                            <span>
-                                Cerca
-                            </span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="img/libreria.svg" alt="">
-                            <span>
-                                La Tua Libreria
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-
-                <div class="create">
-                    <h6>
-                        PLAYLIST
-                    </h6>
-                    <a href="#">
-                        <i class="fa-solid fa-square-plus"></i>
-                        Crea Playlist
-                    </a>
-                </div>             
-            </div>
-            
-            <div class="middle">
-                <div class="playlist">         
+                <div class="spotify">
+                    <img class="logo mini " src="./img/logo-small.svg" alt="Spotify Logo">
+                </div>
+                <div>
                     <ul>
-                        <li>
-                            <a href="#">
-                                Nome Playlist
-                            </a> 
+                        <li class="content">
+                            <img  class="home" src="img/home.svg" alt="Home"><a class="white" href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">
-                                Nome Playlist
-                            </a>
+                            <img src="img/search.svg" alt="Cerca"><a href="#">Cerca</a>
                         </li>
-                        <li>
-                            <a href="#">
-                                Nome Playlist
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Nome Playlist
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Nome Playlist
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Nome Playlist
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Nome Playlist
-                            </a>
+                        <li id="libreria">
+                            <img  id="libreria" src="img/libreria.svg" alt="libreria"><a href="#">La tua Libreria</a>
                         </li>
                     </ul>
-                </div>
+                    <h4 id="specalist">PLAYLIST</h4>
+                     <div class="crea">
+                        <ul>
+                            <li id="square-plus">
+                                <i class="fa-solid fa-square-plus"></i>
+                                 <a href=""><h7>Crea Playlist</h7></a>
+                            </li>
+                            <div class="nome playlist">
+                                <li>
+                                <a href="#"> Nome Playlist</a></li>
+                                <li>
+                                <a href="#"> Nome Playlist</a></li>
+                                <li>
+                                <a href="#"> Nome Playlist</a></li>
+                                <li>
+                                <a href="#"> Nome Playlist</a></li>
+                                <li>
+                                <a href="#"> Nome Playlist</a></li>
+                                <li>
+                                <a href="#"> Nome Playlist</a></li>
+                                <li>
+                                <a href="#"> Nome Playlist</a></li>
+                            </div> 
+                         </ul>     
+                     </div>
+                </div>                  
             </div>
-                   
-            <div class="installa-app">
-                <a href="#" class="download">
-                    <img src="img/download.svg" alt="">
-                    <span>
-                        Installa app
-                    </span>
-                </a>
+            
+            <div class="dowloand-app">
+                <span>
+                    <img id="dowload" src="img/download.svg" alt="download">
+                    <a  id="app" href="#">Installa app</a>
+                </span>
                 <hr>
-                <a href="#" class="profile">
-                    <img src="img/profile.svg" alt="">
-                    <span>
-                        Jonh Doe
-                    </span>
-                </a>
+                <span>
+                    <img id="profile" src="img/profile.svg" alt="account">
+                    <h4 class="white" >John Doe</h4>
+                </span>
             </div>
         </nav>
-        
-        <main>
-            <div class="container">
-                <nav class="top-menu">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                IN EVIDENZA
-                            </a>
-                            <hr>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                PODCAST
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                CLASSIFICHE
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                GENERI E MOOD
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                NUOVE USCITE
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                SCOPRI
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-    
-                <h3>
-                    Recently played
-                </h3>
-                <section class="album">
-                    <div class="card">
-                        <div class="play-hover">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/metal_lifting.jpg" alt="Heavy Metal">
-                        
-                        <h6>
-                            Heavy Metal
-                        </h6>
-                            
-                        <div class="title">
-                            Subtitle
-    
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="play-hover">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/stranger.jpeg" alt="Stranger Things">
-                        <h6>
-                            Stranger Things, Vol. 1 (a Netflix Original Series Soundtrck)
-                        </h6>
-                        <div class="title">
-                            Kyle Dixon & Micheal Stein
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="play-hover">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/aquietplace.jpeg" alt="A quiet place">
-                        <h6>
-                            A quiet place
-                        </h6>
-                        <div class="title">
-                            Subtitle
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="play-hover">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/split.jpeg" alt="Split">
-                        <h6>
-                            Split
-                        </h6>
-                        <div class="title">
-                            Subtitle
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="play-hover">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/cure.jpeg" alt="A cure for wellness">
-                        <h6>
-                            A cure for wellness
-                        </h6>
-                        <div class="title">
-                            Subtitle
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="play-hover">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/sinister.jpeg" alt="Sinister">
-                        <h6>
-                            Sinister
-                        </h6>
-                        <div class="title">
-                            Subtitle
-                        </div>
-                    </div>
-                </section>
-    
-                <h3>
-                    Creato per Jonh Doe
-                </h3>
-                <div class="title-2">
-                    Più ascolti, più accurati saranno i suggerimenti.
-                </div>
-    
-                <section class="for-you"> 
-                    <div class="card">
-                        <div class="play-hover">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/radar.jpeg" alt="Release Radar">
-                        <h6>
-                            Release Radar
-                        </h6>
-                    </div>
-                    <div class="card">
-                        <div class="play-hover">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/mixdaily.jpeg" alt="Daily Mix 1">
-                        <h6>
-                            Daily Mix 1
-                        </h6>
-                    </div>
-                </section>
-    
-                <h3>
-                    Artisti più popolari
-                </h3>
-                <div class="title-2">
-                    Più ascolti, più accurati saranno i suggerimenti.
-                </div>
-    
-                <section class="popular">
-                    <div class="circle card">
-                        <div class="play-hover circle">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/youg.jpeg" alt="Young">
-                        <h6 >
-                            Lana Del Ray
-                        </h6>
-                    </div>
-    
-                    <div class="circle card">
-                        <div class="play-hover circle">
-                            <i class="fa-regular fa-circle-play"></i>
-                        </div>
-                        <img src="img/einaudi.jpeg" alt="Ludovico Einaudi">
-                        <h6>
-                            Ludovico Einaudi
-                        </h6>
-                    </div>
-                </section>
+        <!-- parte centrale  -->
+        <main class="container main">
+            <div class="top-header">
+                <a id="btn" href="#"> EFFETTUA L'UPGRADE</a>
             </div>
-            
+               <!--parte main menu  -->
+            <div class="menu-bar">
+                <ul class="ul-menu">
+                    <li><a href="#" class="evidenza">IN  EVIDENZA</a></li>
+                    <li><a href="#">PODCAST</a></li>
+                    <li><a href="#">CLASSIFICHE</a></li>
+                    <li><a href="#">GENERI  E  MOOD</a></li>
+                    <li><a href="#">NUOVE  USCITE</a></li>
+                    <li><a href="#">SCOPRI</a></li>
+                </ul>
+            </div>
+
+            <!-- recently played -->
+            <h1>Recently played</h1>
+            <!-- section 1 -->
+            <section class="cards-played">
+                <div class="card">
+                    <img src="img/metal_lifting.jpg" alt="Metal album">
+                    <h4>Heavy Metal</h4>
+                    <h5>Subtitle</h5>
+                </div>
+                
+                <div class="card">
+                    <img src="img/stranger.jpeg" alt="Stranger album">
+                    <h4>Stranger Things, vol.1 /a Netflix Original Series Soundtrack</h4>
+                    <h5>Kyle Dixon & Michael Stein</h5>
+                </div>
+                
+                <div class="card">
+                    <img src="img/aquietplace.jpeg" alt="A quiet place album">
+                    <h4>A quite place</h4>
+                    <h5>Subtitle</h5>
+                </div>
+                
+                <div class="card">
+                    <img src="img/split.jpeg" alt="Split album">
+                    <h4>Split</h4>
+                    <h5>Subtitle</h5>
+                </div>
+                
+                <div class="card">
+                    <img src="img/cure.jpeg" alt="A cure for Wellness album">
+                    <h4>A cure for wellness</h4>
+                    <h5>Subtitle</h5>
+                </div>
+                
+                <div class="card">
+                    <img src="img/sinister.jpeg" alt="Sinister Album">
+                    <h4>Sinister</h4>
+                    <h5>Subtitle</h5>
+                </div>                   
+            </section>
+
+            <!-- section 2 -->
+            <h1>Creato per John Doe</h1>
+            <h5 id="ascolti">Più ascolti più accurati saranno i suggerimenti</h5>
+            <section class="cards-played">
+
+                <div class="card">
+                    <img src="./img/radar.jpeg" alt="Realese Radar">
+                    <h4>Release Radar</h4>
+                </div>
+                
+                <div class="card">
+                    <img src="img/mixdaily.jpeg" alt="Daily album">
+                    <h4>Daily Mix 1</h4>
+                </div>
+            </section>
+            <!-- section 3 -->
+                <h1>Artisti più popolari</h1>
+                <h5 id="ascolti">Più ascolti più accurati saranno i suggerimenti</h5>
+                <section class="cards-played">
+                    <div class="card">
+                            <img src="img/youg.jpeg" alt="Young album">
+                            <h4>Young</h4>
+                            <h5>Subtitle</h5>
+                    </div>
+
+                    <div class="card">
+                            <img src="img/einaudi.jpeg" alt="Einaudi album">
+                            <h4>einaudi</h4>
+                            <h5>Subtitle</h5>
+                    </div>
+                </section>
         </main>
     </div>
 
-    
 
-
-     <!-- footer --> 
-    <footer>
-        <footer>
-            <div class="foot left">
-                <img src="img/sinister.jpeg" alt="Cover Preview" class="cover-preview">
-                <span class="preview-info">
-                    <div class="music">
-                        Sinister
-                    </div>
-                    <div class="artist">
-                        <a href="#">
-                            Brano Nome
-                        </a>
-                    </div>
-                </span>
-                <span class="icon">
-                <i class="fa-regular fa-heart"></i>
+        <!-- controller bottom -->
+    <div class="controller">
+        <div class="left-tools">
+            <div id="current-song">
+                <img id="current-img" src="img/sinister.jpeg" alt="">
+            </div>
+            <div id="info-brano">
+                <div id="font-artist">Sinister</div>
+                <div id="font-brano">Brano nome</div>
+            </div>
+            <div class="icons box">
+                <i id="heart" class="fa-regular fa-heart heart"></i>
                 <i class="fa-regular fa-folder"></i>
-                </span>
             </div>
+        </div>    
     
-            <div class="foot center">
-                <div class="icon">
-                    <i class="fa-solid fa-shuffle"></i>
-                    <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-regular fa-circle-play" id="play"></i>
-                    <i class="fa-solid fa-forward-step"></i>
-                    <i class="fa-solid fa-rotate-right"></i>
+        <div class="middle">
+            <div class="bar-tools">
+                <i  id="fa-solid" class="fa-solid fa-shuffle"></i>
+                <i  id="fa-solid" class="fa-solid fa-backward-step"></i>
+                <i  id="fa-solid" class="fa-regular fa-circle-play"></i>
+                <i  id="fa-solid" class="fa-solid fa-forward-step"></i>
+                <i  id="fa-solid" class="fa-solid fa-rotate-right "></i>
+            </div>
+            <div class="music-tools">
+                <div class="time-music">
+                      0.25 
                 </div>
-                <br>
-                <div class="bar-section">
-                    <span>
-                        0:25
-                    </span>
-                    <div class="bar">
-                        <div class="time-bar">
-                            <div class="slider"></div>
-                        </div>
-                    </div>
-                    <span>
-                        4:35
-                    </span>
+                <div class="progress-music">
+                    
+                </div>
+                <div class="time-music">
+                   4.35
                 </div>
             </div>
-    
-            <div class="foot right">
-                <div class="icon">
-                    <i class="fa-solid fa-list-ul"></i>
-                    <i class="fa-solid fa-display"></i>
-                    <i class="fa-solid fa-volume-high"></i>
-                </div>
-                
-                <div class="bar">
-                    <div class="time-bar">
-                        <div class="slider"></div>
-                    </div>
-                </div>
+        </div>
+        
+        <div class="right-tools">
+            <div class="tools-bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
             </div>
-    </footer>
+            <div class="sound-bar">
+               
+            </div>
+        </div>
+    </div>
 </body>
 </html>
